@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww19740\viewh14880\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 Person
+\f1\b0 \ulnone \
++ Id: int\
++ Name: string\
++ Access : AccessLevel\
++ Encoding: list<float>\
++ Expiration: DateTime? \
+_____________________\
++ Person(string name)\
++ Person(string name, DateTime expiration)\
++ ChangeAccess(AccessLevel newLevel)\
+\
+
+\f0\b \ul Object
+\f1\b0 \ulnone \
++ Id: int\
++ Name: string\
++ Encoding: list<float> \
+_____________________\
++ Object(string name)\
+\
+\
+
+\f0\b \ul AccessLevel(Enum)\
+
+\f1\b0 \ulnone + ADMIN = 1\
++ RESIDENT = 2\
++ VISITOR = 3\
++ RESTRICTED = 4}

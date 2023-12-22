@@ -1,0 +1,13 @@
+000: Idle
+
+101: Motion detected, user is recognized
+102: Motion detected, user is unknown
+103: Owner has been sent a picture
+104: Motion detected, user is unauthorized
+
+201: Expecting a name to save new user
+
+301: Found a logo
+
+911: Emergency
+999: Secret password
